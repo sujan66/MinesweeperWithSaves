@@ -1,1 +1,5 @@
 # MinesweeperWithSaves
+
+This is a small project on creating a game with a save file system. The project is still under development, but as of now, the core gameplay as well as save file implementation is completed. The minesweeper game is based on Microsoft minesweeper i.e. The mine generation and difficulty of the game is similar to that of the microsoft version. The save file system uses secondary indexing concept and uses three files to keep track of the saves. 
+Currently, the game is limited to command line and require user inputs for in-game action. The save file holds the following data: save ID, game seed, number of rows and columns, number of moves played, number of tiles uncovered and tile matrix values (of the order of rows * columns).
+Future of the project: Since most of the programming features have been implemented, most of the work that's left is the GUI of the game. Some of the other features that has been planned are Scenario system, adding timestamp to the saves, scoreboard, reloading after gameover, etc.
